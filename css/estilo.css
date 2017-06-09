@@ -1,0 +1,204 @@
+* {
+	margin: 0;
+	padding: 0;	
+}
+body{
+	background: url("../imagens/fundo.png") repeat-x;
+	margin: 0;
+	padding: 0;
+	font-family: tahoma;
+}
+.pagina {
+	width: 800px;
+	margin: 0 auto;
+
+}
+
+/* CSS TOPO */
+
+
+.topo {
+	width: 800px;
+	height: 230px;
+	background: url("../imagens/fundo_topo.jpg");
+	position: relative;
+}
+.logo {
+	width: 320px;
+	height: 180px;	
+	position: absolute;
+	left: 30px;
+	top: 30px;
+}
+.logo img {
+	max-width: 320px;
+	max-height: 180px;
+}
+.redes-sociais {
+	width: 260px;
+	height: 46px;
+	background: rgba(0,0,0,0.65);
+	position: absolute;
+	right: 0;
+	top: 20px;
+}
+.redes-sociais img{
+	width: 32px;
+	height: 32px;
+	margin: 6px;
+}
+
+
+/* CSS MENU */
+
+.menu {
+	background: darkgreen;
+	background: url("../imagens/menu_base.png");
+	position: relative;
+}
+.menu ul {
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+	height: 50px;
+}
+
+.menu ul li {
+	list-style-type: none;
+	display: inline-block;
+}
+.menu a {
+	text-decoration: none;
+	display: block;
+	color: white;
+	height: 20px;
+	padding: 15px;
+}
+.menu a:hover {
+	text-decoration: none;
+	display: block;
+	color: white;
+	height: 20px;
+	padding: 15px;
+	background: url("../imagens/menu_hover.png");
+}
+.busca {
+	position: absolute;
+	right: 0px;
+	padding: 10px;
+}
+
+.busca input {
+	border: none;
+	height: 30px;
+	margin: 0px;
+}
+.busca input[type=submit] {
+	background: darkgreen;
+	color: white;
+	height: 30px;
+	margin: 0px;
+	border: 2px solid darkgreen;
+}
+.busca input[type=submit]:hover {
+	background: green;
+	color: white;
+	border: 2px solid green;
+}
+
+/* CSS CORPO */
+
+.corpo {
+	width: 780px;
+	height: 390px;
+	padding: 10px;
+	background: white;
+	position: relative;
+}
+.corpo h2 {
+	width: 100%;
+	font-weight: bold;
+	font-size: 18px;
+	border-bottom: 2px solid #90CEA2;
+	margin-bottom: 10px;
+}
+.colunaA {
+	width: 520px;
+	margin-right: 10px;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	text-align: justify;
+}
+.colunaA p {
+	margin-bottom: 10px;
+}
+.colunaA img {
+	width: 250px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.colunaB {
+	width: 245px;
+	position: absolute;
+	right: 10px;
+	top: 10px;	
+}
+.subdestaque {
+	width: 245px;
+	height: 160px;
+	margin-bottom: 10px;
+	position: relative;
+	float: left;
+}
+.subdestaque img {
+	width: 245px;
+	height: 160px;
+}
+.legenda {
+	width: 225px;
+	height: 20px;
+	padding: 10px;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	background: rgba(0,0,0,0.65);
+	color: white;
+	text-align: center;
+}
+
+.limpar {
+	clear: both;
+}
+/* CSS RODAPE */
+
+.rodape{
+	width: 100%;
+	height: 120px;
+	background: #699D79;
+	color: white;
+	position: relative;
+}
+
+
+.logo2 {
+	position: absolute;
+	left: 10px;
+	top: 10px;
+}
+.dados {
+	height: 80px;
+	position: absolute;
+	left: 220px;
+	margin: 10px;
+	padding: 10px;
+	border-left: 1px solid #90CEA2;
+}
+.dados p{
+	margin: 0px;
+	padding: 0px;
+}
+.dados span{
+	font-weight: bold;
+}
